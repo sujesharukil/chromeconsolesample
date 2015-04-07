@@ -1,0 +1,32 @@
+{
+  "name": "ChromeConsole",
+  "version": "0.0.1",
+  "description": "Demo of Chrom Dev Tools Console",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sujesh Arukil",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-connect": "^2.2.0",
+    "gulp-serve": "^0.3.1",
+    "jspm": "^0.15.1"
+  },
+  "jspm": {
+    "directories": {},
+    "dependencies": {
+      "bootstrap": "github:twbs/bootstrap@^3.3.4",
+      "highlight": "github:isagalaev/highlight.js@^7.0.1",
+      "highlightjs": "github:components/highlightjs@^8.4.0",
+      "isagalaev/highlight.js": "github:isagalaev/highlight.js@^7.0.1",
+      "jquery": "github:components/jquery@^2.1.3",
+      "lodash": "npm:lodash@^3.6.0"
+    },
+    "devDependencies": {
+      "babel": "npm:babel@^4.7.16",
+      "babel-runtime": "npm:babel-runtime@^4.7.16"
+    }
+  }
+}
